@@ -1,57 +1,81 @@
-console.log("onsdags övningar");
-
-// Övning 1: Enkel Räknare
+// Övning 1: Lägg till och Ta Bort Paragrafer
 
 // Uppgift:
-// Skapa två knappar:
+// Skapa två knappar på sidan:
 
-// En med id="ökaKnapp" och texten "Öka".
-// En med id="minskaKnapp" och texten "Minska".
-// **Lägg till ett p-element med id="räknare" som visar startvärdet 0.
+// En knapp med id="läggTillKnapp" och texten "Lägg till paragraf".
+// En knapp med id="taBortKnapp" och texten "Ta bort paragraf".
 
 // Använd JavaScript för att:
 
-// Lägga till event listeners på knapparna.
-// När "Öka" klickas, öka värdet med 1 och uppdatera texten i p-elementet.
-// När "Minska" klickas, minska värdet med 1 och uppdatera texten.
+// När "Lägg till paragraf" klickas, skapa en ny paragraf med unik text och lägg till den i innehåll-diven.
+// När "Ta bort paragraf" klickas, ta bort den senaste tillagda paragrafen.
+
 // Syfte:
-// Öva på att hantera klickhändelser och uppdatera DOM baserat på användarinteraktion.
+// Öva på att använda createElement, appendChild, och removeChild baserat på användarens interaktion.
 
-// ------------------------------------------------------------------------
+// Ert JS Svar:
 
-// Övning 2: Formulärvalidering
+// ----------------------------------------------------------------------------
+
+// Övning 2: Dynamisk Skapa en Lista med Kontrollknappar
 
 // Uppgift:
-// Skapa ett formulär med ett textfält (input type="text") och en knapp (input type="submit").
+// Skapa en div-container med id="listaContainer", en input-fält med id="itemInput", och en knapp med id="läggTillItemKnapp" och texten "Lägg till item".
 
 // Använd JavaScript för att:
 
-// Lyssna på submit-händelsen på formuläret.
-// Förhindra standardbeteendet (att sidan laddas om) med event.preventDefault().
-// Kontrollera att textfältet inte är tomt.
-// Om det är tomt, visa ett felmeddelande under formuläret.
-// Om det inte är tomt, visa en bekräftelse.
+// När "Lägg till item" klickas, skapa en ny li-element med texten från input-fältet och en "Ta bort"-knapp.
+// Lägg till den nya li-elementet till en ul-lista inuti listaContainer.
+// När "Ta bort"-knappen i ett li-element klickas, ta bort just det li-elementet.
+
 // Syfte:
-// Öva på att hantera formulärhändelser och validera användarinmatning.
+// Öva på att skapa komplexa element med inre strukturer och lägga till händelsehanterare till dynamiskt skapade element.
 
-// ------------------------------------------------------------------------
+// HTML-tillägg för Övning 2 MEN Skapa gärna detta med Javascript istället för att manuellt bara kopiera och klistra in nedan Text.:
 
-// Övning 3: Ändra Bild vid Musöver
+// <h2>Dynamisk Lista</h2>
+// <div id="listaContainer">
+//   <input type="text" id="itemInput" placeholder="Lägg till ett item">
+//   <button id="läggTillItemKnapp">Lägg till item</button>
+//   <!-- Ul-element kommer att skapas dynamiskt -->
+// </div>
+
+// ----------------------------------------------------------------------------
+// Övning 3: Dynamisk Skapa En Sektion med Rubrik och Text
 
 // Uppgift:
-// Lägg till en bild (img) med id="minBild" och src="bild1.jpg".
+// Skapa ett formulär med två input-fält:
+
+// Ett input type="text" med id="sektionRubrik" för rubriktext.
+// Ett textarea med id="sektionText" för textinnehåll.
+// En knapp med id="läggTillSektionKnapp" och texten "Lägg till sektion".
+// Lägg till en tom div med id="sektionContainer".
 
 // Använd JavaScript för att:
 
-// Lyssna på mouseover och mouseout-händelser på bilden.
-// När muspekaren är över bilden, ändra src till bild2.jpg.
-// När muspekaren lämnar bilden, ändra tillbaka till bild1.jpg.
+// När "Lägg till sektion" klickas, skapa en ny section-element.
+// Inom section, skapa en h2-element med rubriktexten och en p-element med textinnehållet.
+// Lägg till en "Ta bort sektion"-knapp i varje section som tar bort just den sektionen när den klickas.
+// Lägg till den nya section till sektionContainer.
+
 // Syfte:
-// Öva på att hantera mus-händelser och ändra attribut på element.
+// Öva på att skapa strukturerade HTML-sektioner dynamiskt och hantera deras borttagning.
 
-// ------------------------------------------------------------------------
+// HTML-tillägg för Övning 3 MEN Skapa gärna detta med Javascript istället för att manuellt bara kopiera och klistra in nedan Text.:
 
-// Fler övningar som mängd tränar er om gårdagens och dagens ämen finns här:
-// https://github.com/FJSX24/fjsx24vecka45/tree/wednesday-6nov-DOM-Bootcamp
+{
+  /* <h2>Dynamisk Sektion Skapare</h2>
+<form id="sektionFormulär">
+  <input type="text" id="sektionRubrik" placeholder="Rubrik för sektion" required>
+  <textarea id="sektionText" placeholder="Text för sektion" required></textarea>
+  <button type="button" id="läggTillSektionKnapp">Lägg till sektion</button>
+</form>
+<div id="sektionContainer"></div> */
+}
 
-// Blir ni klar tidigt kan ni leka runt och lägga till nya addEventListener
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
