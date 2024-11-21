@@ -1,54 +1,37 @@
-console.log("Godmorgon FJSX24 det är tisdag.");
+console.log("Godmorgon KYH det är Fredag.");
 
 // getElementById
-// let headLine = document.getElementById("rubrik");
 
 // getElementsByClassName
-// let paragraf = document.getElementsByClassName("text");
 
 // querySelector och querySelectorAll
-// let firstListItem = document.querySelector(".item");
-// let allListItems = document.querySelectorAll(".item");
-// console.log("allListItems: ", allListItems);
 
 // textContent vs. innerHTML
-// headLine.textContent = "Hej Sverige";
-// headLine.innerHTML += `<li class="item" >Fjärde</li>`;
 
 // Ändra Attribut med setAttribute
-// let catImage = document.getElementById("bild");
-
-// catImage.setAttribute("src", "bild2.jpg");
-// catImage.setAttribute("alt", "cat that needs to go to the dentist");
 
 // Ändra Stilar med style
-// headLine.style.color = "blue";
-// headLine.style.fontSize = "4rem";
 
 // Använda classList för att Hantera Klasser
-// let btn = document.getElementById("knapp");
-// btn.classList.add("addClass");
-// btn.classList.remove("addClass");
-// btn.classList.add("beforeToggle");
-// btn.classList.toggle("beforeToggle");
-// btn.classList.toggle("beforeToggle2222");
 
-// console.log("btn: ", btn);
 // PAUS
 // --------------------------------
+// --------------------------------
+// --------------------------------
 
-// Eventuellt vid tid:
+// addEventListener:
 
-// Iterera över HTMLCollection och NodeList
+// --------------------------------
 
-// Exempel med HTMLCollection:
+// Vanliga Händelser
 
-// Exempel med NodeList:
+// Lista några vanliga händelser:
 
-// Skillnad mellan textContent och innerHTML
+// --------------------------------
+// click - När användaren klickar på ett element:
 
-// Exempel som visar skillnaden:
+// --------------------------------
+// mouseover - När muspekaren flyttas över ett element OCH mouseout - När muspekaren lämnar ett element.
 
-// Använda textContent:
-
-// Använda innerHTML:
+// --------------------------------
+// submit - När ett formulär skickas.
