@@ -246,6 +246,9 @@
 // ------------------------------------------
 
 // Events övningar:
+// OBS!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//  För att träna på dessa övningar, använd denna branch:
+// https://github.com/FJSX24/fjsx24vecka45/tree/wednesday-6nov-events
 
 // Övning 1: Enkel Räknare
 
